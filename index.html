@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initialscale=1.0">
+    <link rel="icon" href="Imagen/Logo.jpeg">
+    <link rel="stylesheet" href="Estilo/estilo.css">
+    <title>Adios... ♡</title>
+
+    <script>
+        const contraseñas = {
+            "her": "secciones/Luna.html",
+            "wifigratis": "secciones/Lulu.html",
+            "chips": "secciones/Mafer.html",
+            "trident": "secciones/Isa.html",
+            "eunwoo": "secciones/Gaby.html"
+        };
+
+        function pedirContrasena(destino) {
+            // Solicita contraseña
+            const contrasena = prompt("Ingresa la contraseña para acceder:");
+            
+            // Verifica la contraseña y redirige si es correcta
+            if (contrasena in contraseñas && contraseñas[contrasena] === destino) {
+                window.location.href = destino;
+            } else {
+                alert("Contraseña incorrecta. No puedes acceder.");
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <header class="encabezado">
+        <h2>Un adiós con cariño ♡</h2>
+        <nav>
+            <ul>
+                <li><a href="">°</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="fila">
+        <section class="columnaizq">
+            <article class="articulo">
+                <h2>A mis queridas amigas</h2>
+                <h4 class="justify"> Quise aprovechar el fin de las catequesis para despedirme de una forma especial y diferente. 
+                Cuando empezamos este camino, sinceramente no esperaba conocerlas a ustedes ni mucho menos formar tantas amistades.
+                Sin embargo, ustedes se han vuelto personas muy especiales para mí, y quise darles un pequeño 
+                detalle. Aunque tal vez no sea algo grande, pero va con muchísimo cariño. Espero que les guste y que logre 
+                transmitirles el aprecio que les he llegado a tomar.
+                Ustedes se han convertido en amigas realmente importantes, y aunque yo no sea de expresar mucho lo que siento, 
+                quiero que sepan cuánto las quiero. Esta es solo una pequeña muestra de ese cariño que tengo hacia cada una de ustedes.
+                (No vayan a compartir su contraseña 😾)</h4>
+            </article>
+
+            <article class="articulo">
+                <h2 id="articulo">Lunita</h2>
+                <center class="fondoimg">
+                    <a href="javascript:pedirContrasena('secciones/Luna.html');">
+                        <img style="width: 100%;" src="Imagen/Yuri.jpg" alt="Luna" />
+                    </a>
+                </center>
+                <h1>Dale click a la imagen jsjs</h1>
+            </article>
+
+
+            <article class="articulo">
+                <h2 id="articulo">Lulu</h2>
+                <center class="fondoimg">
+                    <a href="javascript:pedirContrasena('secciones/Lulu.html');">
+                        <img style="width: 100%;" src="Imagen/Lulu.jpg" alt="Lulu" />
+                    </a>
+                </center>
+                <h1>Dale click a la imagen jsjs</h1>
+            </article>
+
+            <article class="articulo">
+                <h2 id="articulo">Mafer</h2>
+                <center class="fondoimg">
+                    <a href="javascript:pedirContrasena('secciones/Mafer.html');">
+                        <img style="width: 100%;" src="Imagen/Mafer1.jpg" alt="Mafer" />
+                    </a>
+                </center>
+                <h1>Dale click a la imagen jsjs</h1>
+            </article>
+
+
+            <article class="articulo">
+                <h2 id="articulo">Gaby</h2>
+                <center class="fondoimg">
+                    <a href="javascript:pedirContrasena('secciones/Gaby.html');">
+                        <img style="width: 100%;" src="Imagen/Gaby1.jpg" alt="Gaby" />
+                    </a>
+                </center>
+                <h1>Dale click a la imagen jsjs</h1>
+            </article>
+
+
+
+            <article class="articulo">
+                <h2 id="articulo">Isa</h2>
+                <center class="fondoimg">
+                    <a href="javascript:pedirContrasena('secciones/Isa.html');">
+                        <img style="width: 100%;" src="Imagen/Isa1.jpg" alt="Isa" />
+                    </a>
+                </center>
+                <h1>Dale click a la imagen jsjs</h1>
+            </article>
+        </section>
+
+        <aside class="columnader">
+            <article class="articulo">
+                <h2>Los Rebeldes de la Fe XD</h2>
+                <div class="fondoimg">
+                    <center>
+                        <img style="height: 100%; width: 100%;" src="Imagen/Friends.jpg" alt="Imagen">
+                    </center>
+                </div>
+                <h3>Las aprecio mucho la verdad</h3>
+                <li>
+                    <a href="https://www.tiktok.com/@chxesitaa6._/photo/7414304171194699013?is_from_webapp=1&sender_device=pc">Video</a>
+                </li>
+            </article>
+        </aside>
+    </div>
+
+    <footer class="pie">
+        <h2>Con cariño Josuu ♡</h2>
+    </footer>
+</body>
+<!-- -->
+
+</html>
